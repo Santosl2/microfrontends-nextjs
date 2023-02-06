@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "install": "cd ./header && npm i && cd ../consumer && npm i",
+    "dev:app1": "cd ./header && npm run dev",
+    "dev:app2": "cd ./consumer && npm run d",
+    "start:app1": "cd ./header && npm run start",
+    "start:app2": "cd ./consumer && npm run start",
+    "build": "cd ./header && npm run build && cd ../consumer && npm run build"
+  }
+}

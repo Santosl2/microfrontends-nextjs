@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <h1>Estou consumindo dois micro-frontends </h1>
+      <h1>Micro-frontends Next JS </h1>
 
       <Header />
     </>
