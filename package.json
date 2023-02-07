@@ -3,7 +3,7 @@
     "install": "cd ./header && npm i && cd ../consumer && npm i",
     "dev": "concurrently \"cd header; npm run dev\" \"cd consumer; npm run dev\" ",
     "start": "concurrently \"cd header; npm run start\" \"cd consumer; npm run start\" ",
-    "build": "cd ./header && npm run build && cd ../consumer && npm run build"
+    "build": "nextjs build --output public && cd ./header && npm run build && cd ../consumer && npm run build"
   },
   "dependencies": {
     "concurrently": "^7.6.0"
